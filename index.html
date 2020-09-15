@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Domna's CheatSheet</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="#html">HTML</a></li>
+        <li><a href="#css">CSS</a></li>
+    </ul>
+</nav>
+<header><h1>HTML & CSS CheatSheet</h1></header>
+<main class="extra-bottom-padding">
+    <section class="chapter1">
+        <h2 id="html">HTML</h2>
+        <h3>HTML Attributes</h3>
+        <table>
+            <thead>
+            <tr>
+                <th scope="col">Tag</th>
+                <th scope="col">Attribute</th>
+                <th scope="col">Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><span class="change-color">&lt;a&gt;</span></td>
+                <td>href</td>
+                <td class="description">The href attribute specifies the URL of the page the link goes to.</td>
+            </tr>
+            <tr>
+                <td rowspan="4"><span class="change-color">&lt;img&gt;</span></td>
+                <td>src</td>
+                <td class="description">TThe src attribute specifies the path to the image to be displayed.</td>
+            </tr>
+            <tr>
+                <td>width</td>
+                <td class="description">Specifies the width of the image (in pixels).</td>
+            </tr>
+            <tr>
+                <td>height</td>
+                <td class="description">Specifies the height of the image (in pixels).</td>
+            </tr>
+            <tr>
+                <td>alt</td>
+                <td class="description">Specifies an alternate text for an image, if the image for some reason cannot be
+                    displayed.
+                </td>
+            </tr>
+            <tr>
+                <td><span class="change-color">&lt;multiple tags&gt;</span></td>
+                <td>style</td>
+                <td class="description">The style attribute is used to add styles to an element, such as color, font,
+                    size, and more.
+                </td>
+            </tr>
+            <tr>
+                <td><span class="change-color">&lt;html&gt;</span></td>
+                <td>lang</td>
+                <td class="description">You should always include the lang attribute inside the
+                    &lt;html&gt; tag, to declare the language of the Web page. This is meant to assist search engines
+                    and
+                    browsers.
+                </td>
+            </tr>
+            <tr>
+                <td><span class="change-color">&lt;multiple tags&gt;</span></td>
+                <td>title</td>
+                <td class="description">The title attribute defines some extra information about an element.The value of
+                    the title attribute will be displayed as a tooltip when you mouse over the element.
+                </td>
+            </tr>
+            </tbody>
+
+        </table>
+        <h3>HTML Text Formatting</h3>
+        <table>
+            <thead>
+            <tr>
+                <th scope="col">Tag</th>
+                <th scope="col">Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><span class="change-color">&lt;b&gt;</span></td>
+                <td class="description">Defines bold text.</td>
+            </tr>
+            <tr>
+                <td><span class="change-color">&lt;em&gt;</span></td>
+                <td class="description">Defines emphasized text.
+                </td>
+            </tr>
+            <tr>
+                <td><span class="change-color">&lt;i&gt;</span></td>
+                <td class="description">Defines a part of text in an alternate voice or mood.
+                </td>
+            </tr>
+            <tr>
+                <td><span class="change-color">&lt;small&gt;</span></td>
+                <td class="description">Defines smaller text.
+                </td>
+            </tr>
+            <tr>
+                <td><span class="change-color">&lt;strong&gt;</span></td>
+                <td class="description">Defines important text.
+                </td>
+            </tr>
+            <tr>
+                <td><span class="change-color">&lt;sub&gt;</span></td>
+                <td class="description">Defines subscripted text.
+                </td>
+            </tr>
+            <tr>
+                <td><span class="change-color">&lt;sup&gt;</span></td>
+                <td class="description">Defines superscripted text.
+                </td>
+            </tr>
+            <tr>
+                <td><span class="change-color">&lt;ins&gt;</span></td>
+                <td class="description">Defines inserted text.
+                </td>
+            </tr>
+            <tr>
+                <td><span class="change-color">&lt;del&gt;</span></td>
+                <td class="description">Defines deleted text.
+                </td>
+            </tr>
+            <tr>
+                <td><span class="change-color">&lt;mark&gt;</span></td>
+                <td class="description">Defines marked/highlighted text.
+                </td>
+            </tr>
+            </tbody>
+
+        </table>
+    </section>
+    <section class="chapter2">
+        <h2 id="css">CSS</h2>
+        <h3>CSS Simple Selectors</h3>
+        <table>
+            <thead>
+            <tr>
+                <th scope="col">Selector</th>
+                <th scope="col">Example</th>
+                <th scope="col">Example Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><span class="change-color">.class</span></td>
+                <td>.intro</td>
+                <td class="description">Selects all elements with class="intro".
+                </td>
+            </tr>
+            <tr>
+                <td><span class="change-color">#class</span></td>
+                <td>#firstname</td>
+                <td class="description">Selects the element with id="firstname".
+                </td>
+            </tr>
+            <tr>
+                <td><span class="change-color">*</span></td>
+                <td>*</td>
+                <td class="description">Selects all elements.
+                </td>
+            </tr>
+            <tr>
+                <td><span class="change-color">element</span></td>
+                <td>p</td>
+                <td class="description">Selects all &lt;p&gt; elements.
+                </td>
+            </tr>
+            <tr>
+                <td><span class="change-color">element,element,..</span></td>
+                <td>div,p</td>
+                <td class="description">Selects all &lt;div&gt; and all &lt;p&gt; elements.
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <h3>CSS Padding Properties</h3>
+        <table>
+            <thead>
+            <tr>
+                <th scope="col">Property</th>
+                <th scope="col">Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><span class="change-color">padding</span></td>
+                <td class="description">A shorthand property for setting all the padding properties in one declaration.
+                </td>
+            </tr>
+            <tr>
+                <td><span class="change-color">padding-bottom</span></td>
+                <td class="description">Sets the bottom padding of an element.
+                </td>
+            </tr>
+            <tr>
+                <td><span class="change-color">padding-left</span></td>
+                <td class="description">Sets the left padding of an element.
+                </td>
+            </tr>
+            <tr>
+                <td><span class="change-color">padding-right</span></td>
+                <td class="description">Sets the right padding of an element.
+                </td>
+            </tr>
+            <tr>
+                <td><span class="change-color">padding-top</span></td>
+                <td class="description">Sets the top padding of an element.
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+    </section>
+</main>
+<footer>
+    <p>Created with &#128151; by Domna &copy;Copyright 2020 </p>
+</footer>
+
+</body>
+</html>

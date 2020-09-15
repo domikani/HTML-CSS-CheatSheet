@@ -1,0 +1,130 @@
+body {
+    background: lightblue;
+    font-family: Bahnschrift, serif;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+header {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lavender;
+    display: table;
+    width: 100%;
+}
+
+nav li {
+    display: table-cell
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: royalblue;
+}
+
+.chapter1 h2 {
+    text-align: center;
+}
+
+.chapter1 h3 {
+    text-align: center;
+    color: mediumblue;
+}
+
+
+.chapter1 table {
+    border: 2px solid black;
+    text-align: center;
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 700px;
+    /*padding: 5px;*/
+}
+
+.chapter1 thead {
+    background-color: lightskyblue;
+}
+
+.chapter1 th {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+.chapter1 td {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 3px;
+}
+
+.change-color {
+    font-family: Garamond, serif;
+    background-color: lightcyan;
+    text-decoration: underline;
+}
+
+.description {
+    text-align: justify;
+}
+
+.chapter2 h2 {
+    text-align: center;
+}
+
+.chapter2 h3 {
+    text-align: center;
+    color: darkslateblue;
+}
+
+.chapter2 table {
+    border: 2px solid black;
+    text-align: center;
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 700px;
+
+}
+
+.chapter2 thead {
+    background-color: mediumslateblue;
+}
+
+.chapter2 th {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+.chapter2 td {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 3px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: lavender;
+    text-align: center;
+}
+
+.extra-bottom-padding {
+    padding-bottom: 100px;
+}
+
